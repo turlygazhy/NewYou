@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~
+  ~ This file is part of Loop Habit Tracker.
+  ~
+  ~ Loop Habit Tracker is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by the
+  ~ Free Software Foundation, either version 3 of the License, or (at your
+  ~ option) any later version.
+  ~
+  ~ Loop Habit Tracker is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  ~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+  ~ more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+            android:key="interfaceCategory"
+            android:title="@string/interface_preferences">
+
+        <SwitchPreferenceCompat
+                android:defaultValue="false"
+                android:key="pref_short_toggle"
+                android:summary="@string/pref_toggle_description_2"
+                android:title="@string/pref_toggle_title"
+                app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_midnight_delay"
+            android:summary="@string/pref_midnight_delay_description"
+            android:title="@string/pref_midnight_delay_title"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_skip_enabled"
+            android:summary="@string/pref_skip_description"
+            android:title="@string/pref_skip_title"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_unknown_enabled"
+            android:summary="@string/pref_unknown_description"
+            android:title="@string/pref_unknown_title"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+                android:defaultValue="false"
+                android:key="pref_checkmark_reverse_order"
+                android:summary="@string/reverse_days_description"
+                android:title="@string/reverse_days"
+                app:iconSpaceReserved="false" />
+
+
+        <SwitchPreferenceCompat
+                android:defaultValue="false"
+                android:key="pref_pure_black"
+                android:summary="@string/pure_black_description"
+                android:title="@string/use_pure_black"
+                app:iconSpaceReserved="false" />
+
+        <ListPreference
+                android:defaultValue="255"
+                android:entries="@array/widget_opacity_entries"
+                android:entryValues="@array/widget_opacity_values"
+                android:key="pref_widget_opacity"
+                android:summary="@string/widget_opacity_description"
+                android:title="@string/widget_opacity_title"
+                app:iconSpaceReserved="false" />
+
+        <ListPreference
+                android:key="pref_first_weekday"
+                android:title="@string/first_day_of_the_week"
+                app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="reminderCategory"
+            android:title="@string/reminder">
+
+        <Preference
+                android:key="reminderSound"
+                android:title="@string/reminder_sound"
+                app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+                android:defaultValue="false"
+                android:key="pref_sticky_notifications"
+                android:summary="@string/sticky_notifications_description"
+                android:title="@string/sticky_notifications"
+                app:iconSpaceReserved="false" />
+
+        <Preference
+                android:key="reminderCustomize"
+                android:summary="@string/customize_notification_summary"
+                android:title="@string/customize_notification"
+                app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="databaseCategory"
+            android:title="@string/database">
+
+        <Preference
+                android:key="exportDB"
+                android:summary="@string/export_full_backup_summary"
+                android:title="@string/export_full_backup"
+                app:iconSpaceReserved="false" />
+
+        <Preference
+                android:key="exportCSV"
+                android:summary="@string/export_as_csv_summary"
+                android:title="@string/export_to_csv"
+                app:iconSpaceReserved="false" />
+
+        <Preference
+                android:key="importData"
+                android:summary="@string/import_data_summary"
+                android:title="@string/import_data"
+                app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="pref_key_debug"
+            android:title="@string/troubleshooting">
+
+        <Preference
+                android:key="bugReport"
+                android:title="@string/generate_bug_report"
+                app:iconSpaceReserved="false" />
+
+        <Preference
+                android:key="repairDB"
+                android:title="@string/repair_database"
+                app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="linksCategory"
+            android:title="@string/links">
+
+        <Preference
+                android:title="@string/help"
+                app:iconSpaceReserved="false">
+            <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/helpURL" />
+        </Preference>
+
+        <Preference
+                android:title="@string/pref_rate_this_app"
+                app:iconSpaceReserved="false">
+            <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/playStoreURL" />
+        </Preference>
+
+        <Preference
+                android:title="@string/about"
+                app:iconSpaceReserved="false">
+            <intent
+                    android:action="android.intent.action.VIEW"
+                    android:targetClass="org.isoron.uhabits.activities.about.AboutActivity"
+                    android:targetPackage="org.isoron.uhabits" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="devCategory"
+            android:title="Development">
+
+        <SwitchPreferenceCompat
+                android:defaultValue="false"
+                android:key="pref_developer"
+                android:title="Enable developer mode"
+                app:iconSpaceReserved="false" />
+
+        <EditTextPreference
+            android:defaultValue="@string/syncBaseURL"
+            android:key="pref_sync_base_url"
+            android:title="Sync server"
+            app:iconSpaceReserved="false"
+            />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="pref_sync_key"
+            android:title="Sync key"
+            app:iconSpaceReserved="false"
+            />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="pref_encryption_key"
+            android:title="Encryption key"
+            app:iconSpaceReserved="false"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

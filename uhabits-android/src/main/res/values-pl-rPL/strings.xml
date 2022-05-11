@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~
+  ~ This file is part of Loop Habit Tracker.
+  ~
+  ~ Loop Habit Tracker is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by the
+  ~ Free Software Foundation, either version 3 of the License, or (at your
+  ~ option) any later version.
+  ~
+  ~ Loop Habit Tracker is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  ~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+  ~ more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Śledzenie Nawyków Loop</string>
+    <string name="main_activity_title">Nawyki</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="edit">Edytuj</string>
+    <string name="delete">Usuń</string>
+    <string name="archive">Archiwizuj</string>
+    <string name="unarchive">Odarchiwizuj</string>
+    <string name="add_habit">Dodaj nawyk</string>
+    <string name="color_picker_default_title">Zmień kolor</string>
+    <string name="toast_habit_created">Utworzono nawyk</string>
+    <plurals name="toast_habits_changed">
+        <item quantity="one">Zmieniono nawyk</item>
+        <item quantity="few">Zmieniono nawyki</item>
+        <item quantity="many">Zmieniono nawyki</item>
+        <item quantity="other">Zmieniono nawyki</item>
+    </plurals>
+    <plurals name="toast_habits_deleted">
+        <item quantity="one">Nawyk usunięty</item>
+        <item quantity="few">Nawyki usunięte</item>
+        <item quantity="many">Nawyki usunięte</item>
+        <item quantity="other">Usunięto nawyki</item>
+    </plurals>
+    <plurals name="toast_habits_archived">
+        <item quantity="one">Zarchiwizowano nawyk</item>
+        <item quantity="few">Zarchiwizowano nawyki</item>
+        <item quantity="many">Zarchiwizowano nawyki</item>
+        <item quantity="other">Zarchiwizowano nawyki</item>
+    </plurals>
+    <plurals name="toast_habits_unarchived">
+        <item quantity="one">Nawyk przywrócony z archiwum</item>
+        <item quantity="few">Nawyki przywrócone z archiwum</item>
+        <item quantity="many">Nawyk przywrócony z archiwum</item>
+        <item quantity="other">Nawyki zostały przywrócone z archiwum</item>
+    </plurals>
+    <string name="overview">Przegląd</string>
+    <string name="habit_strength">Siła nawyku</string>
+    <string name="history">Historia</string>
+    <string name="clear">Wyczyść</string>
+    <string name="reminder">Przypomnienie</string>
+    <string name="save">Zapisz</string>
+    <string name="streaks">Serie</string>
+    <string name="no_habits_found">Nie masz aktywnych nawyków</string>
+    <string name="no_habits_left_to_do">Na dziś to wszystko!</string>
+    <string name="long_press_to_toggle">Naciśnij i przytrzymaj aby zaznaczyć lub odznaczyć</string>
+    <string name="reminder_off">Wyłączone</string>
+    <string name="create_habit">Utwórz nawyk</string>
+    <string name="edit_habit">Edytuj nawyk</string>
+    <string name="check">Zaznacz</string>
+    <string name="snooze">Później</string>
+    <string name="intro_title_1">Witaj</string>
+    <string name="intro_description_1">Śledzenie nawyków Loop pozwala Ci na utworzenie i prowadzenie dobrych nawyków.</string>
+    <string name="intro_title_2">Utwórz nowe nawyki</string>
+    <string name="intro_description_2">Codziennie, po wykonaniu swojego nawyku, postaw znaczek w aplikacji.</string>
+    <string name="intro_title_4">Śledź swój postęp</string>
+    <string name="intro_description_4">Szczegółowe grafiki pokazują jak Twoje nawyki polepszyły się z biegiem czasu.</string>
+    <string name="interval_15_minutes">15 minut</string>
+    <string name="interval_30_minutes">30 minut</string>
+    <string name="interval_1_hour">1 godzina</string>
+    <string name="interval_2_hour">2 godziny</string>
+    <string name="interval_4_hour">4 godziny</string>
+    <string name="interval_8_hour">8 godzin</string>
+    <string name="interval_24_hour">24 godziny</string>
+    <string name="interval_always_ask">Zawsze pytaj</string>
+    <string name="interval_custom">Własne ustawienia...</string>
+    <string name="pref_toggle_title">Przełącz powtarzanie krótkim naciśnięciem</string>
+    <string name="pref_toggle_description_2">Umieść znaczniki wyboru jednym dotknięciem zamiast naciśnięcia i przytrzymania.</string>
+    <string name="pref_rate_this_app">Oceń tę aplikację w Google Play</string>
+    <string name="pref_send_feedback">Prześlij uwagi do programisty</string>
+    <string name="pref_view_source_code">Zobacz kod źródłowy na GitHub\'ie</string>
+    <string name="links">Linki</string>
+    <string name="name">Nazwa</string>
+    <string name="settings">Ustawienia</string>
+    <string name="select_snooze_delay">Wybierz długość drzemki</string>
+    <string name="hint_title">Czy wiesz że?</string>
+    <string name="hint_drag">Aby zmienić kolejność naciśnij i przytrzymaj na nazwie nawyku i przesuń go na odpowiednie miejsce.</string>
+    <string name="hint_landscape">Możesz zobaczyć więcej dni trzymając telefon poziomo.</string>
+    <plurals name="delete_habits_title">
+        <item quantity="one">Usunąć nawyk?</item>
+        <item quantity="few">Usunąć nawyki?</item>
+        <item quantity="many">Usunąć nawyki?</item>
+        <item quantity="other">Usunąć nawyki?</item>
+    </plurals>
+    <plurals name="delete_habits_message">
+        <item quantity="one">Nawyk zostanie trwale usunięty. Tej czynności nie można cofnąć.</item>
+        <item quantity="few">Nawyki zostaną trwale usunięte. Tej czynności nie można cofnąć.</item>
+        <item quantity="many">Nawyki zostaną trwale usunięte. Tej czynności nie można cofnąć.</item>
+        <item quantity="other">Nawyki zostaną trwale usunięte. Tej operacji nie można cofnąć.</item>
+    </plurals>
+    <string name="habit_not_found">Nawyk usunięty/nie znaleziony</string>
+    <string name="weekends">Weekendy</string>
+    <string name="any_weekday">Dni robocze</string>
+    <string name="any_day">Każdy dzień</string>
+    <string name="select_weekdays">Wybierz dni</string>
+    <string name="export_to_csv">Eksportuj dane (CSV)</string>
+    <string name="done_label">Gotowe</string>
+    <string name="clear_label">Wyczyść</string>
+    <string name="select_hours">Wybierz godziny</string>
+    <string name="select_minutes">Wybierz minuty</string>
+    <string name="about">O aplikacji</string>
+    <string name="translators">Tłumacze</string>
+    <string name="developers">Programiści</string>
+    <string name="version_n">Wersja %s</string>
+    <string name="frequency">Częstotliwość</string>
+    <string name="checkmark">Znacznik</string>
+    <string name="best_streaks">Najlepsze serie</string>
+    <string name="every_day">Codziennie</string>
+    <string name="every_week">Co tydzień</string>
+    <string name="help">Pomoc &amp; FAQ</string>
+    <string name="could_not_export">Eksportowanie danych nie powiodło się.</string>
+    <string name="could_not_import">Importowanie danych nie powiodło się.</string>
+    <string name="file_not_recognized">Plik nierozpoznany.</string>
+    <string name="habits_imported">Nawyki zaimportowane pomyślnie.</string>
+    <string name="import_data">Importuj dane</string>
+    <string name="export_full_backup">Eksportuj pełną kopię zapasową</string>
+    <string name="import_data_summary">Wspiera pełne kopie zapasowe wyeksportowane przez tą aplikację zarówno jak i pliki wygenerowane przez Tickmate, Habitbull oraz Rewire. Zobacz FAQ po więcej informacji.</string>
+    <string name="export_as_csv_summary">Generuje pliki, które mogą być otwierane przez arkusze kalkulacyjne takie jak Microsoft Excel czy OpenOffice Calc. Taki plik nie może być importowany.</string>
+    <string name="export_full_backup_summary">Generuje plik, który zawiera wszystkie Twoje dane. Taki plik może być importowany.</string>
+    <string name="bug_report_failed">Nie udało się wygenerować raportu o błędach.</string>
+    <string name="generate_bug_report">Wygeneruj raport o błędach</string>
+    <string name="troubleshooting">Rozwiązywanie problemów</string>
+    <string name="help_translate">Pomóż w tłumaczeniu tej aplikacji</string>
+    <string name="night_mode">Tryb nocny</string>
+    <string name="use_pure_black">Używaj pełnej czerni w trybie nocnym</string>
+    <string name="pure_black_description">Zamienia szare tła na pełną czerń w trybie nocnym. Zmniejsza zużycie baterii w telefonach z ekranem AMOLED.</string>
+    <string name="interface_preferences">Interfejs</string>
+    <string name="reverse_days">Odwróć kolejność dni</string>
+    <string name="reverse_days_description">Pokaż dni w odwrotnej kolejności na głównym ekranie</string>
+    <string name="day">Dzień</string>
+    <string name="week">Tydzień</string>
+    <string name="month">Miesiąc</string>
+    <string name="quarter">Kwartał</string>
+    <string name="year">Rok</string>
+    <string name="total">Łącznie</string>
+    <string name="yes_or_no">Tak lub Nie</string>
+    <string name="every_x_days">Co %d dni</string>
+    <string name="every_x_weeks">Co %d tygodni</string>
+    <string name="score">Wynik</string>
+    <string name="reminder_sound">Dźwięk przypomnienia</string>
+    <string name="none">Brak</string>
+    <string name="filter">Filtruj</string>
+    <string name="hide_completed">Ukryj zakończone</string>
+    <string name="hide_entered">Ukryj wprowadzone</string>
+    <string name="hide_archived">Ukryj archiwizowane</string>
+    <string name="sticky_notifications">Przypinaj powiadomienia</string>
+    <string name="sticky_notifications_description">Zapobiega usunięciu powiadomień.</string>
+    <string name="led_notifications">Dioda powiadomień</string>
+    <string name="led_notifications_description">Wyświetla migające światło dla przypomnień. Dostępne jedynie w telefonach z diodą LED.</string>
+    <string name="repair_database">Napraw bazę danych</string>
+    <string name="database_repaired">Baza danych została naprawiona.</string>
+    <string name="uncheck">Odznacz</string>
+    <string name="toggle">Przełącz</string>
+    <string name="action">Akcja</string>
+    <string name="habit">Nawyk</string>
+    <string name="sort">Sortuj</string>
+    <string name="manually">Ręcznie</string>
+    <string name="by_name">Według nazwy</string>
+    <string name="by_color">Według koloru</string>
+    <string name="by_score">Według wyniku</string>
+    <string name="by_status">Według statusu</string>
+    <string name="export">Eksportuj</string>
+    <string name="long_press_to_edit">Naciśnij i przytrzymaj, aby zmienić wartość</string>
+    <string name="value">Wartość</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="unit">Jednostka</string>
+    <string name="target_type">Rodzaj celu:</string>
+    <string name="target_type_at_least">Co najmniej</string>
+    <string name="target_type_at_most">Maksymalnie</string>
+    <string name="example_question_boolean">np. Czy ćwiczyłeś dzisiaj?</string>
+    <string name="question">Pytanie</string>
+    <string name="target">Cel</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="customize_notification_summary">Zmień dźwięk, wibrację, światło i inne ustawienia powiadomień</string>
+    <string name="customize_notification">Dostosuj powiadomienia</string>
+    <string name="pref_view_privacy">Zobacz politykę prywatności</string>
+    <string name="view_all_contributors">Zobacz wszystkich współtwórców</string>
+    <string name="database">Baza danych</string>
+    <string name="widget_opacity_title">Przezroczystość widżetu</string>
+    <string name="widget_opacity_description">Sprawia, że widżety są bardziej przezroczyste lub bardziej nieprzezroczyste na ekranie głównym.</string>
+    <string name="first_day_of_the_week">Pierwszy dzień tygodnia</string>
+    <string name="default_reminder_question">Czy wytrwałeś dziś w nawyku?</string>
+    <string name="notes">Notatki</string>
+    <string name="example_notes">(opcjonalne)</string>
+    <string name="yes_or_no_example">np. Czy obudziłeś się dzisiaj wcześnie? Czy ćwiczyłeś? Czy grałeś w szachy?</string>
+    <string name="measurable">Mierzalne</string>
+    <string name="measurable_example">np. Ile mil przejechałeś dzisiaj? Ile stron przeczytałeś?</string>
+    <string name="x_times_per_week">%d razy w tygodniu</string>
+    <string name="x_times_per_month">%d razy w miesiącu</string>
+    <string name="x_times_per_y_days">%d razy w ciągu %d dni</string>
+    <string name="yes_or_no_short_example">np. ćwiczenia</string>
+    <string name="color">Kolor</string>
+    <string name="example_target">np. 15</string>
+    <string name="measurable_short_example">np. Bieg</string>
+    <string name="measurable_question_example">np. Ile km przebiegłeś dzisiaj?</string>
+    <string name="measurable_units_example">np. kilometry</string>
+    <string name="every_month">Co miesiąc</string>
+    <string name="validation_cannot_be_blank">Nie może być puste</string>
+    <string name="today">Dzisiaj</string>
+    <string name="enter">Wprowadź</string>
+    <string name="no_habits">Nie znaleziono nawyków</string>
+    <string name="no_numerical_habits">Nie znaleziono mierzalnych nawyków</string>
+    <string name="no_boolean_habits">Nie znaleziono nawyków typu tak/nie</string>
+    <string name="increment">Zwiększ</string>
+    <string name="decrement">Zmniejsz</string>
+    <string name="pref_skip_title">Włącz pomijanie dni</string>
+    <string name="pref_skip_description">Przełącz dwukrotnie, aby dodać pominięcie zamiast znacznika wyboru. Pomijanie utrzymuje niezmieniony wynik i nie przerywa passy.</string>
+    <string name="pref_unknown_title">Pokaż znaki zapytania dla brakujących danych</string>
+    <string name="pref_unknown_description">Odróżnij dni bez danych od faktycznych przerw. Aby wprowadzić przerwę, przełącz dwukrotnie.</string>
+    <string name="you_are_now_a_developer">Jesteś teraz programistą</string>
+    <string name="activity_not_found">Nie znaleziono aplikacji obsługującej to działanie</string>
+    <string name="pref_midnight_delay_title">Przedłuż dzień o kilka godzin po północy</string>
+    <string name="pref_midnight_delay_description">Poczekaj do 3:00, aby pokazać nowy dzień. Przydatne, jeśli zwykle kładziesz się spać po północy. Wymaga ponownego uruchomienia aplikacji.</string>
+</resources>

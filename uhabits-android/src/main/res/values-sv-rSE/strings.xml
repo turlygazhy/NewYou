@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~
+  ~ This file is part of Loop Habit Tracker.
+  ~
+  ~ Loop Habit Tracker is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by the
+  ~ Free Software Foundation, either version 3 of the License, or (at your
+  ~ option) any later version.
+  ~
+  ~ Loop Habit Tracker is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  ~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+  ~ more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Loop Vanedagbok</string>
+    <string name="main_activity_title">Vanor</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="edit">Redigera</string>
+    <string name="delete">Ta bort</string>
+    <string name="archive">Arkivera</string>
+    <string name="unarchive">Ångra arkivering</string>
+    <string name="add_habit">Lägg till vana</string>
+    <string name="color_picker_default_title">Byt färg</string>
+    <string name="toast_habit_created">Vana skapad</string>
+    <plurals name="toast_habits_changed">
+        <item quantity="one">Vanan ändrades</item>
+        <item quantity="other">Vanorna ändrades</item>
+    </plurals>
+    <plurals name="toast_habits_deleted">
+        <item quantity="one">Vanan raderades</item>
+        <item quantity="other">Vanorna raderades</item>
+    </plurals>
+    <plurals name="toast_habits_archived">
+        <item quantity="one">Vanan arkiverades</item>
+        <item quantity="other">Vanorna arkiverades</item>
+    </plurals>
+    <plurals name="toast_habits_unarchived">
+        <item quantity="one">Vanan avarkiverades</item>
+        <item quantity="other">Vanorna avarkiverades</item>
+    </plurals>
+    <string name="overview">Översikt</string>
+    <string name="habit_strength">Vanestyrka</string>
+    <string name="history">Historik</string>
+    <string name="clear">Rensa</string>
+    <string name="reminder">Påminnelse</string>
+    <string name="save">Spara</string>
+    <string name="streaks">Streaks</string>
+    <string name="no_habits_found">Du har inga aktiva vanor</string>
+    <string name="no_habits_left_to_do">Du är klar för idag!</string>
+    <string name="long_press_to_toggle">Tryck-och-håll för att markera eller avmarkera</string>
+    <string name="reminder_off">Av</string>
+    <string name="create_habit">Skapa vana</string>
+    <string name="edit_habit">Redigera vana</string>
+    <string name="check">Markera</string>
+    <string name="snooze">Senare</string>
+    <string name="intro_title_1">Välkommen</string>
+    <string name="intro_description_1">Loop Habit Tracker hjälper dig att skapa och bibehålla goda vanor.</string>
+    <string name="intro_title_2">Skapa några nya vanor</string>
+    <string name="intro_description_2">Efter varje dag när du utfört din vana så markerar du den i appen.</string>
+    <string name="intro_title_4">Följ dina framsteg</string>
+    <string name="intro_description_4">Detaljerade grafer visar dig hur dina vanor förbättras över tid.</string>
+    <string name="interval_15_minutes">15 minuter</string>
+    <string name="interval_30_minutes">30 minuter</string>
+    <string name="interval_1_hour">1 timme</string>
+    <string name="interval_2_hour">2 timmar</string>
+    <string name="interval_4_hour">4 timmar</string>
+    <string name="interval_8_hour">8 timmar</string>
+    <string name="interval_24_hour">24 timmar</string>
+    <string name="interval_always_ask">Fråga alltid</string>
+    <string name="interval_custom">Anpassad...</string>
+    <string name="pref_toggle_title">Växla med snabb tryckning</string>
+    <string name="pref_rate_this_app">Betygsätt oss på Google Play</string>
+    <string name="pref_send_feedback">Skicka feedback till utvecklarna</string>
+    <string name="pref_view_source_code">Visa källkod på GitHub</string>
+    <string name="links">Länkar</string>
+    <string name="name">Namn</string>
+    <string name="settings">Inställningar</string>
+    <string name="select_snooze_delay">Välj snoozelängd</string>
+    <string name="hint_title">Visste du att?</string>
+    <string name="hint_drag">För att flytta på poster - tryck och håll nere på den vana du vill flytta, sedan flytta den till önskad plats.</string>
+    <string name="hint_landscape">Du kan se mer dagar genom att hålla telefonen i landskapsläge.</string>
+    <plurals name="delete_habits_title">
+        <item quantity="one">Radera vana?</item>
+        <item quantity="other">Radera vanor?</item>
+    </plurals>
+    <plurals name="delete_habits_message">
+        <item quantity="one">Vanan kommer att raderas permanent. Denna åtgärd går inte att ångra.</item>
+        <item quantity="other">Vanorna kommer att raderas permanent. Denna åtgärd går inte att ångra.</item>
+    </plurals>
+    <string name="habit_not_found">Vana borttagen / hittades inte</string>
+    <string name="weekends">Helger</string>
+    <string name="any_weekday">Måndag till fredag</string>
+    <string name="any_day">Vilken dag som helst</string>
+    <string name="select_weekdays">Välj dagar</string>
+    <string name="export_to_csv">Exportera data (CSV)</string>
+    <string name="done_label">Klart</string>
+    <string name="clear_label">Rensa</string>
+    <string name="select_hours">Välj timmar</string>
+    <string name="select_minutes">Välj minuter</string>
+    <string-array name="hints">
+        <item>@string/hint_drag</item>
+        <item>@string/hint_landscape</item>
+    </string-array>
+    <string name="about">Om</string>
+    <string name="translators">Översättare</string>
+    <string name="developers">Utvecklare</string>
+    <string name="version_n">Version %s</string>
+    <string name="frequency">Frekvens</string>
+    <string name="checkmark">Kryssruta</string>
+    <string name="checkmark_stack_widget" formatted="false">Stapelwidget med kryssruta</string>
+    <string name="frequency_stack_widget" formatted="false">Stapelwidget med frekvens</string>
+    <string name="score_stack_widget" formatted="false">Stapelwidget med poäng</string>
+    <string name="history_stack_widget" formatted="false">Stapelwidget med historik</string>
+    <string name="streaks_stack_widget" formatted="false">Stapelwidget med serier</string>
+    <string name="best_streaks">Bästa serie</string>
+    <string name="every_day">Varje dag</string>
+    <string name="every_week">Varje vecka</string>
+    <string name="help">Hjälp och FAQ</string>
+    <string name="could_not_export">Det gick inte att exportera.</string>
+    <string name="could_not_import">Det gick inte att importera.</string>
+    <string name="file_not_recognized">Kunde inte känna igen filen.</string>
+    <string name="habits_imported">Import av dina vanor lyckades.</string>
+    <string name="import_data">Importera data</string>
+    <string name="export_full_backup">Exportera backup</string>
+    <string name="import_data_summary">Appen har stöd att importera data från denna app, men även backuper från Tickmate, Habitbull eller Rewire. Läs FAQ om du vill meta mer.</string>
+    <string name="export_as_csv_summary">Filerna genererade kan öppnas i Microsoft Excel eller OpenOffice Calc. Däremot kan denna fil inte importeras tillbaka till appen.</string>
+    <string name="export_full_backup_summary">Generera en fil som innehåller all din data. Denna fil kan importas tillbaka till appen.</string>
+    <string name="bug_report_failed">Det gick inte att generera felrapport.</string>
+    <string name="generate_bug_report">Generera felrapport</string>
+    <string name="troubleshooting">Felsökning</string>
+    <string name="help_translate">Hjälp till att översätta appen</string>
+    <string name="night_mode">Nattläge</string>
+    <string name="use_pure_black">Använd svart färg i nattläge</string>
+    <string name="pure_black_description">Ersätter gråa bakgrunder med svart färg i nattläge. Reducerar batterianvändningen för telefoner med AMOLED-skärm.</string>
+    <string name="interface_preferences">Gränssnitt</string>
+    <string name="reverse_days">Omvänd ordning på dagar</string>
+    <string name="reverse_days_description">Visar dagar i omvänd ordning i appen</string>
+    <string name="day">Dag</string>
+    <string name="week">Vecka</string>
+    <string name="month">Månad</string>
+    <string name="quarter">Kvartal</string>
+    <string name="year">År</string>
+    <string name="total">Totalt</string>
+    <string name="yes_or_no">Ja eller Nej</string>
+    <string name="every_x_days">Var %d:e dag</string>
+    <string name="every_x_weeks">Var %d:e vecka</string>
+    <string name="score">Poäng</string>
+    <string name="reminder_sound">Påminnelseljud</string>
+    <string name="none">Inget</string>
+    <string name="filter">Filtrera</string>
+    <string name="hide_completed">Dölj slutförda</string>
+    <string name="hide_archived">Dölj arkiverade</string>
+    <string name="sticky_notifications">Gör notifikationer permanenta</string>
+    <string name="sticky_notifications_description">Förhindrar att notifikationer stängs.</string>
+    <string name="led_notifications">Aviseringsindikator</string>
+    <string name="led_notifications_description">Visar ett blinkande ljus för påminnelser. Endast tillgängligt för telefoner med LED-indikator.</string>
+    <string name="repair_database">Reparera databas</string>
+    <string name="database_repaired">Databasen reparerad.</string>
+    <string name="uncheck">Avmarkera</string>
+    <string name="toggle">Växla</string>
+    <string name="action">Åtgärd</string>
+    <string name="habit">Vana</string>
+    <string name="sort">Sortera</string>
+    <string name="manually">Manuellt</string>
+    <string name="by_name">Efter namn</string>
+    <string name="by_color">Efter färg</string>
+    <string name="by_score">Efter poäng</string>
+    <string name="by_status">Efter status</string>
+    <string name="export">Exportera</string>
+    <string name="long_press_to_edit">Tryck och håll ned för att ändra värdet</string>
+    <string name="calendar">Kalender</string>
+    <string name="unit">Enhet</string>
+    <string name="example_question_boolean">t.ex. Tränade du idag?</string>
+    <string name="question">Fråga</string>
+    <string name="target">Mål</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="customize_notification_summary">Ändra ljud, vibration, ljus och andra aviseringsinställningar</string>
+    <string name="customize_notification">Anpassa aviseringar</string>
+    <string name="pref_view_privacy">Visa integritetspolicy</string>
+    <string name="view_all_contributors">Visa alla medverkande&#8230;</string>
+    <string name="database">Databas</string>
+    <string name="widget_opacity_title">Widgetopacitet</string>
+    <string name="widget_opacity_description">Gör widgetar mer eller mindre transparenta på hemskärmen.</string>
+    <string name="first_day_of_the_week">Första dagen i veckan</string>
+    <string name="default_reminder_question">Har du genomfört denna vana idag?</string>
+    <string name="notes">Anteckningar</string>
+    <string name="example_notes">(valfritt)</string>
+    <string name="yes_or_no_example">t.ex. Vaknade du tidigt idag? Tränade du? Spelade du schack?</string>
+    <string name="measurable">Mätbar</string>
+    <string name="measurable_example">t.ex. Hur många kilometer sprang du idag? Hur många sidor läste du?</string>
+    <string name="x_times_per_week">%d gånger per vecka</string>
+    <string name="x_times_per_month">%d gånger per månad</string>
+    <string name="x_times_per_y_days">%d gånger i %d dagar</string>
+    <string name="yes_or_no_short_example">t.ex. Träna</string>
+    <string name="color">Färg</string>
+    <string name="example_target">t.ex. 15</string>
+    <string name="measurable_short_example">t.ex. Spring</string>
+    <string name="measurable_question_example">t.ex. Hur många kilometer sprang du idag?</string>
+    <string name="measurable_units_example">t.ex. kilometer</string>
+    <string name="every_month">Varje månad</string>
+    <string name="validation_cannot_be_blank">Får inte vara tomt</string>
+    <string name="today">Idag</string>
+    <string name="enter">Ange</string>
+    <string name="no_habits">Inga vanor hittades</string>
+    <string name="no_numerical_habits">Inga mätbara vanor hittades</string>
+    <string name="no_boolean_habits">Inga ja-eller-nej-vanor hittades</string>
+    <string name="increment">Öka</string>
+    <string name="decrement">Minska</string>
+    <string name="pref_skip_title">Aktivera överhoppning av dagar</string>
+    <string name="pref_skip_description">Växla två gånger för att hoppa över istället för att bocka för. Att hoppa över behåller dina poäng oförändrade och bryter inte din serie.</string>
+    <string name="pref_unknown_title">Visa frågetecken för data som saknas</string>
+    <string name="pref_unknown_description">Skilj dagar utan data från faktiska misslyckanden. För att ange ett misslyckanden, växla två gånger.</string>
+    <string name="you_are_now_a_developer">Du är nu en utvecklare</string>
+    <string name="activity_not_found">Ingen app som stödjer åtgärden hittades.</string>
+    <string name="pref_midnight_delay_title">Förläng dagen några timmar efter midnatt</string>
+    <string name="pref_midnight_delay_description">Vänta till 3:00 innan en ny dag visas. Användbart om du vanligtvis går och lägger dig efter midnatt. Kräver omstart av appen.</string>
+</resources>

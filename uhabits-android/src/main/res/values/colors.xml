@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~
+  ~ This file is part of Loop Habit Tracker.
+  ~
+  ~ Loop Habit Tracker is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by the
+  ~ Free Software Foundation, either version 3 of the License, or (at your
+  ~ option) any later version.
+  ~
+  ~ Loop Habit Tracker is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  ~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+  ~ more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <array name="lightPalette">
+        <item>@color/red_700</item>
+        <item>@color/deep_orange_700</item>
+        <item>@color/orange_700</item>
+        <item>@color/amber_800</item>
+        <item>@color/yellow_800</item>
+        <item>@color/lime_700</item>
+        <item>@color/light_green_600</item>
+        <item>@color/green_700</item>
+        <item>@color/teal_600</item>
+        <item>@color/cyan_600</item>
+        <item>@color/light_blue_600</item>
+        <item>@color/blue_700</item>
+        <item>@color/indigo_700</item>
+        <item>@color/deep_purple_600</item>
+        <item>@color/purple_600</item>
+        <item>@color/pink_600</item>
+        <item>@color/brown_700</item>
+        <item>@color/grey_800</item>
+        <item>@color/grey_600</item>
+        <item>@color/grey_500</item>
+    </array>
+
+    <array name="darkPalette">
+        <item>@color/red_200</item>
+        <item>@color/deep_orange_200</item>
+        <item>@color/orange_200</item>
+        <item>@color/amber_100</item>
+        <item>@color/yellow_200</item>
+        <item>@color/lime_200</item>
+        <item>@color/light_green_200</item>
+        <item>@color/green_A200</item>
+        <item>@color/teal_200</item>
+        <item>@color/cyan_200</item>
+        <item>@color/light_blue_200</item>
+        <item>@color/blue_300</item>
+        <item>@color/indigo_200</item>
+        <item>@color/deep_purple_200</item>
+        <item>@color/purple_200</item>
+        <item>@color/pink_200</item>
+        <item>@color/brown_200</item>
+        <item>@color/grey_100</item>
+        <item>@color/grey_300</item>
+        <item>@color/grey_500</item>
+    </array>
+
+    <array name="transparentWidgetPalette">
+        <item>@color/red_800</item>
+        <item>@color/deep_orange_800</item>
+        <item>@color/orange_800</item>
+        <item>@color/amber_800</item>
+        <item>@color/yellow_800</item>
+        <item>@color/lime_800</item>
+        <item>@color/light_green_600</item>
+        <item>@color/green_700</item>
+        <item>@color/teal_700</item>
+        <item>@color/cyan_700</item>
+        <item>@color/light_blue_700</item>
+        <item>@color/blue_800</item>
+        <item>@color/indigo_800</item>
+        <item>@color/deep_purple_700</item>
+        <item>@color/purple_700</item>
+        <item>@color/pink_700</item>
+        <item>@color/brown_800</item>
+        <item>@color/black_aa</item>
+        <item>@color/black_aa</item>
+        <item>@color/black_aa</item>
+    </array>
+
+    <color name="ic_launcher_background">#1976D2</color>
+</resources>

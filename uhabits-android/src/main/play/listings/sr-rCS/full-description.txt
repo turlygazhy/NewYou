@@ -1,0 +1,29 @@
+„Loop“ pratilac navika  vam pomaže u stvaranju i održavanju dugoročnih pozitivnih navika u vašem životu. Detaljni grafikoni i statistike daće vam jasnu sliku o tome kako se vaše navike vremenom poboljšavaju. Aplikacija je bez oglasa, otvorenog koda i poštuje vašu privatnost.
+
+<b>Lepo, minimalističko i lagano sučelje</b>
+„Loop“ ima elegantno i minimalističko sučelje, lako za upotrebu, čak i za početnike. Optimizovana za brzinu, aplikacija radi dobro čak i na starijim telefonima.
+
+<b>Moć navike</b>
+„Loop“ ima naprednu formulu za proračun snage vaših navika. Svako ponavljanje čini vašu naviku jačom, a svaki propušteni dan slabijom. Ipak, nekoliko propuštenih dana nakon dugog niza, neće u potpunosti uništiti vaš napredak. Za razliku od drugih aplikacija koje traže neprekinuti lanac.
+
+<b>Prilagodljivi rasporedi</b>
+Pored svakodnevnih navika, „Loop“ podržava i navike sa složenijim rasporedom, poput 3 puta nedeljno ili svaki drugi dan.
+
+<b>Podsetnici</b>
+Zakazana obaveštenja kao podsetnik za vaše navike. Svaka navika može da ima svoj podsetnik, u izabrano doba dana. Lako potvrdite ili odbacite svoju naviku direktno iz obaveštenja.
+
+<b>Vidžeti</b>
+Podsetite se svojih navika kad god otključate telefon. Šareni vidžeti omogućavaju praćenje navika direktno sa početnog ekrana, čak i bez otvaranja aplikacije.
+
+<b>Preuzmite kontrolu nad podacima</b>
+Ako želite da dalje analizirate podatke ili ih premestite na drugu uslugu, „Loop“ omogućava izvoz u tabele (CSV) ili u fajl baze podataka (SQLite). Za napredne korisnike, potvrde se mogu dodati i kroz druge aplikacije, kao što je Tasker.
+
+<b>Bez ograničenja</b>
+Pratite onoliko navika koliko želite. „Loop“ ne nameće veštačka ograničenja koliko navika možete imati. Sve mogućnosti su dostupne svim korisnicima. Nema kupovina u aplikaciji.
+
+<b>Potpuno bez oglasa i otvorenog koda</b>
+Nema reklama, dosadnih obaveštenja ili nametljivih dozvola i nikada ih neće biti. Aplikacija je potpuno otvorenog koda (GPLv3).
+
+<b>Radi van mreže i poštuje vašu privatnost</b>
+„Loop“ ne traži pristup internetu niti registraciju naloga. Vaši poverljivi podaci se ne šalju nikome. Ni programeri niti bilo ko treći nema pristup njima.
+
