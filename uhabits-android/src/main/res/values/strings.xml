@@ -22,8 +22,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
 
-    <string name="app_name" >Loop Habit Tracker</string>
-    <string name="main_activity_title">Habits</string>
+    <string name="app_name" >NewYou Habit Tracker</string>
+    <string name="main_activity_title">NewYou</string>
     <string name="action_settings">Settings</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
