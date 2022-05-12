@@ -35,11 +35,11 @@ android {
     compileSdk = 31
 
     defaultConfig {
-        versionCode = 20003
-        versionName = "2.0.3"
+        versionCode = 10
+        versionName = "1.0"
         minSdk = 23
         targetSdk = 31
-        applicationId = "org.isoron.uhabits"
+        applicationId = "kz.newyou"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
