@@ -88,16 +88,4 @@
         android:title="@string/action_settings"
         app:showAsAction="never"/>
 
-    <item
-        android:id="@+id/actionFAQ"
-        android:orderInCategory="100"
-        android:title="@string/help"
-        app:showAsAction="never"/>
-
-    <item
-        android:id="@+id/actionAbout"
-        android:orderInCategory="100"
-        android:title="@string/about"
-        app:showAsAction="never"/>
-
 </menu>

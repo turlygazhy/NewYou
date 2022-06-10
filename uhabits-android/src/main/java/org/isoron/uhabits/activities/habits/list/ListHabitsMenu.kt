@@ -94,16 +94,6 @@ class ListHabitsMenu @Inject constructor(
                 return true
             }
 
-            R.id.actionFAQ -> {
-                behavior.onViewFAQ()
-                return true
-            }
-
-            R.id.actionAbout -> {
-                behavior.onViewAbout()
-                return true
-            }
-
             R.id.actionSettings -> {
                 behavior.onViewSettings()
                 return true
