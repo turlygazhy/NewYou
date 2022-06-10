@@ -35,8 +35,8 @@ android {
     compileSdk = 31
 
     defaultConfig {
-        versionCode = 11
-        versionName = "1.1"
+        versionCode = 12
+        versionName = "1.2"
         minSdk = 23
         targetSdk = 31
         applicationId = "kz.newyou"
